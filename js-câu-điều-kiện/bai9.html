@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=+prompt("nhập số a");
+        var b=+prompt("nhập số b");
+        var c=+prompt("nhập số c");
+         var max=a;
+         var min=a;
+         max=max>=b?max:b;
+         max=max>=c?max:c;
+         min=min<=b?min:b;
+         min=min<=c?min:c;
+         if(a!=min &&a!=max){
+            console.log("dãy theo thứ tự tăng dần là:".min,a,max);
+         }else if(b!=min && b!=max){
+            console.log("dãy theo thứ tự tanwng dần là:",min,b,max);
+         }else{
+            console.log("day theo thứ tự tăng dần là:",min,c,max);
+         }
+    </script>
+</body>
+</html>
